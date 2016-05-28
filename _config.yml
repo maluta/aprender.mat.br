@@ -6,7 +6,7 @@ title: Aprender Matemática
 
 # standard jekyll configuration
 
-baseurl: aprender.mat.br
+baseurl: .
 permalink: /m/:title
 highlighter: rouge
 exclude:
