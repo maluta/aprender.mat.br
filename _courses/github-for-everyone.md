@@ -1,12 +1,12 @@
 ---
 layout: course
-leadingpath: /
+leadingpath: ../
 title: Ensino Médio
-description: 
+description:
 
 sections:
   -
-    title: Getting Started with Collaboration
+    title: 1o ano
     description: This section introduces you to GitHub and the collaboration features we will use throughout the class.
     modules:
       - COLL-00_Introducing-github
@@ -14,7 +14,7 @@ sections:
       - COLL-02_Using-issues
       - COLL-03_Watching-notifications-stars-explore
   -
-    title: Creating Your First Pull Request
+    title: 2o ano
     description: In this section you will learn about the GitHub flow and create your first pull request.
     modules:
       - CONT-01_Understanding-github-flow

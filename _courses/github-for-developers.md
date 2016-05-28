@@ -1,8 +1,8 @@
 ---
 layout: course
-leadingpath: /
+leadingpath: ../
 title: Ensino Fundamental
-description: 
+description:
 
 sections:
   -
