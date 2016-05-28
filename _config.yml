@@ -1,0 +1,41 @@
+# For Atom Feed
+domain: aprender.mat.bt
+author: Tiago Maluta
+email: tiago.maluta@gmail.com
+title: Aprender Matemática
+
+# standard jekyll configuration
+
+baseurl: /
+permalink: /videos/:title
+highlighter: pygments
+exclude:
+- bin
+- config.rb
+- Gemfile
+- Gemfile.lock
+- gems
+- Procfile
+- Rakefile
+- README.md
+- script
+- vendor
+
+collections:
+  modules:
+    output: true
+  courses:
+    output: true
+
+include:
+- _stylesheets
+- _javascript
+
+markdown: rdiscount
+
+sass:
+  sass_dir: assets/vendor/
+  style: :compressed
+
+# Custom site configuration
+lang: pt-br
