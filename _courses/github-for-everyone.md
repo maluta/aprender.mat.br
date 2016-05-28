@@ -1,8 +1,8 @@
 ---
 layout: course
-leadingpath: ../
-title: BBBB
-description: An introduction to GitHub for those who prefer the web browser and graphical clients.
+leadingpath: /
+title: Ensino Médio
+description: 
 
 sections:
   -

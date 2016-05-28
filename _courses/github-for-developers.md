@@ -1,8 +1,8 @@
 ---
 layout: course
-leadingpath: ../
-title: AAAA
-description: A tour through Git and GitHub concepts for those who use the command line.
+leadingpath: /
+title: Ensino Fundamental
+description: 
 
 sections:
   -
