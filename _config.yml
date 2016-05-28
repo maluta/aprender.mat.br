@@ -8,7 +8,7 @@ title: Aprender Matemática
 
 baseurl: /
 permalink: /videos/:title
-highlighter: pygments
+highlighter: rouge
 exclude:
 - bin
 - config.rb
