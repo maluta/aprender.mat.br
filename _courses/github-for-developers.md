@@ -1,7 +1,7 @@
 ---
 layout: course
 leadingpath: ../
-title: GitHub for Developers
+title: AAAA
 description: A tour through Git and GitHub concepts for those who use the command line.
 
 sections:

@@ -1,7 +1,7 @@
 ---
 layout: course
 leadingpath: ../
-title: GitHub for Everyone
+title: BBBB
 description: An introduction to GitHub for those who prefer the web browser and graphical clients.
 
 sections:
