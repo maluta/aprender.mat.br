@@ -6,8 +6,8 @@ title: Aprender Matemática
 
 # standard jekyll configuration
 
-baseurl: /
-permalink: /videos/:title
+baseurl: aprender.mat.br
+permalink: /m/:title
 highlighter: rouge
 exclude:
 - bin
