@@ -179,6 +179,10 @@ layout: site
             {% when 'video-youtube' %}
 
             <p>.
+
+            {{ video-youtube.title }}
+            {{ video-youtube.id }}
+
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{% video-youtube.id %}" allowfullscreen></iframe>
             </p>
 
