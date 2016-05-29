@@ -176,6 +176,15 @@ layout: site
               </table></br>
             </div>
 
+            {% when 'video-youtube' %}
+
+            <p>
+              ..
+              {{ item[1].yt_title }}
+              {{ item[1].yt_id }}
+              ..
+            </p>
+
 
             {% when 'lab' %}
             <div class="lab panel panel-primary">
