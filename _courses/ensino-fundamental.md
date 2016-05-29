@@ -6,7 +6,7 @@ description:
 
 sections:
   -
-    title: Getting Started with Collaboration
+    title: 1o. ano
     description: This section introduces you to GitHub and the collaboration features we will use throughout the class.
     modules:
       - COLL-00_Introducing-github
