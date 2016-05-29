@@ -7,7 +7,7 @@ title: Aprender Matemática
 # standard jekyll configuration
 
 baseurl: .
-permalink: /m/:title
+permalink: /articles/:title
 highlighter: rouge
 exclude:
 - bin
