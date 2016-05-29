@@ -7,7 +7,7 @@ description:
 sections:
   -
     title: 1o. ano
-    description: This section introduces you to GitHub and the collaboration features we will use throughout the class.
+    description: Estes são os principais conteúdos do primeiro ano do ensino fundamental
     modules:
       - EF01-geometria
 #      - COLL-01_Exploring-a-repository
