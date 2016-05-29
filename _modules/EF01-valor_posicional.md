@@ -7,8 +7,8 @@ title: Introdução a Geometria # The title for the module - displayed to end us
 pre-requisites: # Don't parse this - just info for now
 learning-objective: Principios da Geometria # The learning objective is just for curriculum developers so they know the purpose of each course and how to test that it was successful
 screens: # Each module is comprised of 1..n screens - you could think of them like slides in keynote containing an image, a video, a poll, or a quiz.
-  - video-slide:
-      title: Video 
+  - video-youtube:
+      title: Video do Youtube
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
 
 
