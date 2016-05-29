@@ -6,9 +6,9 @@ description:
 
 sections:
   -
-    title: 1o ano
-    description: Conteúdos do primeiro ano do ensino médio.
+    title: EM BREVE
+    description:
     modules:
-      - COLL-00_Introducing-github
+#      - COLL-00_Introducing-github
 
 ---
