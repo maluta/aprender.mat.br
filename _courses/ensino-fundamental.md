@@ -7,7 +7,7 @@ description:
 sections:
   -
     title: Fundamentos da Matemática
-    description: Contagem, introdução a soma e subtração, dezenas e centenas, adição e subtração dentro de 20, soma e subtração de números até 100 e 1000, medição de dados e geometria.
+    description: Contagem, introdução a soma e subtração, dezenas e centenas, adição e subtração dentro de 20, soma e subtração de números até 100 e 1000, medição de dados e geometria <>
     modules:
       - EF01-contando
       - EF01-introducao_soma_subtracao
