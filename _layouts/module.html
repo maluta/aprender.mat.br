@@ -178,12 +178,9 @@ layout: site
 
             {% when 'video-youtube' %}
 
-            <p>
-              {{ video-youtube.title }}
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/"{{ video-youtube.id }} allowfullscreen></iframe>
-              </div>
-            </p>
+            <p>{{ video-youtube.title }}</p>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/"{{ video-youtube.id }} allowfullscreen></iframe>
+
 
             {% when 'lab' %}
             <div class="lab panel panel-primary">
