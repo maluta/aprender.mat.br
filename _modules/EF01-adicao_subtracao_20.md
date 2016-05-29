@@ -11,10 +11,11 @@ screens: # Each module is comprised of 1..n screens - you could think of them li
       yt_title: Coleção de formas do primo Fal
       yt_id: e5NXAFHRhoE
   - video-youtube:
-      yt_title: II Coleção de formas do primo Fal
-      yt_id: e5NXAFHRhoE
+      yt_title: Reconhecendo Formas
+      yt_id: BixdaoJtxa8
 
-
-
+resources:
+  - title: "Video: GitHub & Git Foundations - Init"
+  url: https://youtu.be/WxMFZncm12s
 
 ---
