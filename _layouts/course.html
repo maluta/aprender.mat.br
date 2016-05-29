@@ -31,7 +31,7 @@ layout: site
                       {% if module contains "POLL-" %}
                         {% comment %} Do not render.  This is a poll. {% endcomment %}
                       {% else %}
-                        <li><a href="{{ site.baseurl }}/modules/{{ module }}.html">{{ site_module.title }}</a></li>
+                        <li><a href="/modules/{{ module }}.html">{{ site_module.title }}</a></li>
                       {% endif %}
 
                     {% else %}
