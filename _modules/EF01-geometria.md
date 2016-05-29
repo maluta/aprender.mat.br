@@ -5,7 +5,7 @@ leadingpath: ../
 # If anything here is hard to parse, please just reformat it to make it easy to parse!
 title: Introdução a Geometria # The title for the module - displayed to end users
 pre-requisites: # Don't parse this - just info for now
-learning-objective: Understand the purpose of GitHub and the differnce between GitHub and Git. # The learning objective is just for curriculum developers so they know the purpose of each course and how to test that it was successful
+learning-objective: Principios da Geometria # The learning objective is just for curriculum developers so they know the purpose of each course and how to test that it was successful
 screens: # Each module is comprised of 1..n screens - you could think of them like slides in keynote containing an image, a video, a poll, or a quiz.
   - poll: # One type of screen displays a poll. A poll is comprised of one or more questions.
       title: Version Control Poll
