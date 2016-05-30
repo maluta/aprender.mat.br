@@ -19,6 +19,19 @@ screens: # Each module is comprised of 1..n screens - you could think of them li
   - video-youtube:
       yt_title: Números faltantes entre 0 e 120
       yt_id: QeeKPJ0Y4Uk
+  - video-youtube:
+      yt_title: Contagem em figuras
+      yt-id: 7T9Q5dJ-8gg
+  - video-youtube:
+      yt_title: Contagem de objetos 1
+      yt-id: SX0MQcSUTqU
+  - video-youtube:
+      yt_title: Contagem de objetos 2
+      yt-id: 9qQis51BGg4  
+  - video-youtube:
+      yt_title: Como comparar números de objetos
+      yt-id: E6bhjrutKis
+
 
 
 ---
