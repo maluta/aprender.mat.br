@@ -113,7 +113,7 @@ layout: site
           </p>
         </div>
       </div> -->
-      
+
       {% for screen in page.screens %}
       <div class="slide {{ screen.first[0] }}">
         <div class="alignment">
@@ -180,10 +180,11 @@ layout: site
 
             <div class="slide">
             <p><h3>{{ item[1].yt_title }}</h3></p>
+              <p>{{ item[1].yt_desc }}</p>
               <br>
               <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/{{ item[1].yt_id }}" allowfullscreen></iframe>
               <br>
-
+              {{ item[1].yt_desc }}
           </div>
 
 
