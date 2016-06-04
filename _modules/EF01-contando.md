@@ -11,7 +11,9 @@ screens: # Each module is comprised of 1..n screens - you could think of them li
       yt_title: Contando Números Pequenos | Fundamentos da Matemática | Khan Academy
       yt_id: kTiLMIrBWfU
       yt_desc1: Sal conta esquilos e cavalos.
-      yt_desc2: ""
+      yt_desc2: "Faça um exercício agora mesmo na Khan Academy:
+https://pt.khanacademy.org/math/early-math/cc-early-math-counting-topic/cc-early-math-counting/e/counting-out-1-20-objects?utm_source=YT&utm_medium=
+Desc&utm_campaign=EarlyMath"
   - video-youtube:
       yt_title: Contagem em Ordem
       yt_id: 6DgVxN8mrFQ
