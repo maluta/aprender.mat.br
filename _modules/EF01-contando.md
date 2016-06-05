@@ -29,7 +29,7 @@ screens: # Each module is comprised of 1..n screens - you could think of them li
       yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-counting-topic/cc-early-math-numbers-120/e/numbers-to-120
   - video-youtube:
       yt_title: Contagem em figuras
-      yt-id: 7T9Q5dJ-8gg
+      yt_id: 7T9Q5dJ-8gg
       yt_desc1: Como contar em figuras
       yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-counting-topic/cc-early-math-count-object-topic/e/counting-in-scenes
   - video-youtube:
