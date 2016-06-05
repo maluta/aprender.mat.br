@@ -22,5 +22,10 @@ screens: # Each module is comprised of 1..n screens - you could think of them li
       yt_id: VRO_MorpL8I
       yt_desc1: Aprenda a combinar formas para criar outras formas.
       yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-geometry-topic/cc-early-math-composing-shapes/e/compose-shapes
+  - video-youtube:
+      yt_title: Partes iguais de círculos e retângulos
+      yt_id: VdIVIgQ5WTU
+      yt_desc1: Aprenda a determinar se as formas estão divididas em duas ou quatro partes iguais.
+      yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-geometry-topic/cc-early-math-fractions-of-shapes/e/equal-parts-of-circles-and-rectangles
 
 ---
