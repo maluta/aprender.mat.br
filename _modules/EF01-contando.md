@@ -34,17 +34,17 @@ screens: # Each module is comprised of 1..n screens - you could think of them li
       yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-counting-topic/cc-early-math-count-object-topic/e/counting-in-scenes
   - video-youtube:
       yt_title: Contagem de objetos 1
-      yt-id: SX0MQcSUTqU
+      yt_id: SX0MQcSUTqU
       yt_desc1: Como contar baleias, ovelhas, e flores
       yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-counting-topic/cc-early-math-count-object-topic/e/how-many-objects-1
   - video-youtube:
       yt_title: Contagem de objetos 2
-      yt-id: 9qQis51BGg4  
+      yt_id: 9qQis51BGg4  
       yt_desc1: Como contar cachorros, camundongos, e cookies
       yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-counting-topic/cc-early-math-count-object-topic/e/how-many-objects-2
   - video-youtube:
       yt_title: Como comparar números de objetos
-      yt-id: E6bhjrutKis
+      yt_id: E6bhjrutKis
       yt_desc1: Exemplo de comparação de grupos até 10
       yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-counting-topic/cc-early-math-comparing-numbers/e/compare-groups-through-10
 
