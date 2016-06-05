@@ -47,6 +47,15 @@ screens: # Each module is comprised of 1..n screens - you could think of them li
       yt_id: E6bhjrutKis
       yt_desc1: Exemplo de comparação de grupos até 10
       yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-counting-topic/cc-early-math-comparing-numbers/e/compare-groups-through-10
-
+  - video-youtube:
+      yt_title: Como comparar números na reta numérica
+      yt_id: ZbiVkkPKQLo
+      yt_desc1:  Como usar a reta numérica para comparar números menores ou iguais a 10
+      yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-counting-topic/cc-early-math-comparing-numbers/e/comparing-numbers-through-10
+  - video-youtube:
+      yt_title: Contagem por categoria
+      yt_id: HEG7Xgl8rng
+      yt_desc1: Como categorizar objetos e então contar o número de itens em cada categoria.
+      yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-counting-topic/cc-early-math-comparing-numbers/e/sort-groups-by-count
 
 ---
