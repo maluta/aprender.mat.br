@@ -21,6 +21,9 @@ exclude:
 - script
 - vendor
 
+gems:
+- jekyll-sitemap
+
 collections:
   modules:
     output: true
