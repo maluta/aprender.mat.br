@@ -25,4 +25,9 @@ screens: # Each module is comprised of 1..n screens - you could think of them li
            yt_desc1: Sal apresenta o símbolo de maior que ">" e o símbolo de menor que "<". Criado por Sal Khan.
            yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-place-value-topic/cc-early-math-two-digit-compare/e/comparing_whole_numbers
 
+   - video-youtube:
+           yt_title: Comparação de números inteiros
+           yt_id: 7ARpYABLqGA
+           yt_desc1: Como comparar números de três algarismos
+           yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-place-value-topic/cc-early-math-three-digit-compar
 ---
