@@ -1,0 +1,162 @@
+---
+layout: site
+---
+
+
+<div class="deck">
+
+<!--      <div class="slide">
+        <div class="alignment">
+          <h1>{{ page.title }}</h1>
+          <p>
+            {{ page.learning-objective }}
+          </p>
+        </div>
+      </div> -->
+
+      {% for screen in page.screens %}
+      <div class="slide {{ screen.first[0] }}">
+        <div class="alignment">
+
+          {% for item in screen %}
+            <h2>{{ item[1].title }}</h2>
+
+            {% case item[0] %}
+
+            {% when 'poll' or 'quiz' %}
+
+              <div class="lab panel panel-primary">
+
+                <div class="panel-heading">
+                    {{ item[0] | capitalize }}
+                </div>
+
+                <div class="panel-body">
+                  <p>{{ item[1].presenter-script }}</p>
+                </div>
+
+                <ol>
+                {% for question in item[1].questions %}
+                    <li>{{ question.title }}<br/><br/></li>
+                {% endfor %}
+              </ol>
+
+            </div>
+
+            {% when 'image-slide' %}
+
+            <p>
+              {{ item[1].presenter-script }}
+            </p>
+            <p>
+              <img src="{% if item[1].image contains 'http'%}{{ item[1].image }}{% else %}{{ site.baseurl }}/images/{{item[1].image}}{% endif %}" alt="" />
+            </p>
+
+            {% when 'video-slide' %}
+
+            <div class="narration-table">
+              <table>
+                <thead>
+                  <th>
+                    <strong>Do</strong>
+                  </th>
+                  <th>
+                    Say
+                  </th>
+                </thead>
+                {% for dialogue in item[1].video-script %}
+                  <tr class="{% cycle 'odd', 'even' %}">
+                    <td>
+                      {{ dialogue.do | escape }}
+                    </td>
+                    <td>
+                      {{ dialogue.say }}
+                    </td>
+                {% endfor %}
+              </table></br>
+            </div>
+
+            {% when 'video-youtube' %}
+
+            <div class="screen" >
+            <p><h4>{{ item[1].yt_title }}</h4></p>
+              <p>{{ item[1].yt_desc1 }}</p>
+              <br>
+              <div class="video-container">
+                <iframe frameborder="0" width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/{{ item[1].yt_id }}?rel=0" allowfullscreen></iframe>
+              </div>
+              <br><br>
+              <p>
+              Faça um&nbsp;<a href="{{ item[1].yt_desc2 }}?utm_source=APRENDAMATBR&utm_medium=BLOG&utm_campaign=THIRDPARTY" role="button" class="btn btn-success btn-large" style="color:white;font-family:arial" target="_blank">Exercício</a> agora mesmo na Khan Academy!
+              </p>
+          </div>
+
+
+            {% when 'lab' %}
+            <div class="lab panel panel-primary">
+              <div class="panel-heading">
+                Lab
+              </div>
+            <div class="panel-body">
+              {{ item[1].presenter-script }}
+            </div>
+
+            <ol>
+
+              {% for step in item[1].steps %}
+
+                <li>
+                  {{ step.description | remove: '"'}}
+                </li>
+
+              {% endfor %}
+
+            </ol>
+          </div>
+            {% else %}
+
+              <p>
+                Unknown Screen Type
+              </p>
+
+            {% endcase %}
+
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+
+</div>
+
+<div class="col-toc col-md-2 col-sm-2 col-xs-2 shift-left">
+  <div id="toc-wrapper">
+    <div id="toc" data-spy="affix" data-offset-top="145">
+
+      <div class="module-toc">
+        <h4>Table of Contents</h4>
+        <ul id="toc-list" class="nav nav-pills nav-stacked" role="tablist">
+          <li></li>
+        </ul>
+      </div>
+
+      <!-- <h4>Courses</h4>
+      <ul id="toc-list" class="nav nav-pills nav-stacked" role="tablist">
+        {% for course in site.courses %}
+            <a href="{{ site.baseurl }}{{ course.url }}"><li class="headingSep">{{ course.title }}</li></a>
+        {% endfor %}
+      </ul>
+
+      <ul class="nav display-controls">
+        <li>
+          <input type="checkbox" name="slide-only" id="slide-only-toggle" class="slide-only-check" value="true">
+          <label id="slides-only" for="slide-only-toggle" class="slides-only-label">Slides Only</label>
+        </li>
+        <li>
+          <div class="timer-toggle"></div>
+          <input type="checkbox" name="timer-check" id="timer-check" class="timer-check" value="true">
+          <label for="timer-check" class="timer-label" data-toggle="modal" data-target="#timerModal">Timer</label>
+        </li>
+      </ul> -->
+    </div>
+  </div>
+</div>

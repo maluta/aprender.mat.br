@@ -1,0 +1,11 @@
+_site/
+.DS_Store
+/.rbenv-version
+/vendor/gems/
+/bin/
+/.bundle/
+/training-kit-master/
+.sass-cache/
+*.*~
+_release
+training-kit-master.zip
