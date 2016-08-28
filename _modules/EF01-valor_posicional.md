@@ -13,5 +13,16 @@ screens: # Each module is comprised of 1..n screens - you could think of them li
           yt_desc1: Sal olha para o 1 em cada um dos números de 10 a 19 e pensa sobre o que ele realmente significa.  Criado por Sal Khan.
           yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-place-value-topic/cc-early-math-teens/e/teen-numbers-1
 
+   - video-youtube:
+           yt_title: Introdução ao valor posicional
+           yt_id: _gPWM_RIAOo
+           yt_desc1: Sal usa o número 37 para explicar porque usamos a "casa das unidades" e a "casa das dezenas" ao escrevermos números.  Criado por Sal Khan.
+           yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-place-value-topic/cc-early-math-tens/e/groups-of-tens
+
+#   - video-youtube:
+#           yt_title:
+#           yt_id:
+#           yt_desc1:
+#           yt_desc2:
 
 ---
