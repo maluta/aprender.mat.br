@@ -7,11 +7,11 @@ title: Valor Posicional # The title for the module - displayed to end users
 pre-requisites: # Don't parse this - just info for now
 learning-objective: Principios da Geometria # The learning objective is just for curriculum developers so they know the purpose of each course and how to test that it was successful
 screens: # Each module is comprised of 1..n screens - you could think of them like slides in keynote containing an image, a video, a poll, or a quiz.
-  - video-youtube:
-      title: Video do Youtube
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
-
-
+   - video-youtube:
+          yt_title: Contando Números Pequenos
+          yt_id: ckD_iN2V76A
+          yt_desc1: Sal olha para o 1 em cada um dos números de 10 a 19 e pensa sobre o que ele realmente significa.  Criado por Sal Khan.
+          yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-place-value-topic/cc-early-math-teens/e/teen-numbers-1
 
 
 ---
