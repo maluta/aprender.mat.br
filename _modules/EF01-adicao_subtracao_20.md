@@ -9,7 +9,6 @@ learning-objective: Números até 20 # The learning objective is just for curric
 screens: # Each module is comprised of 1..n screens - you could think of them like slides in keynote containing an image, a video, a poll, or a quiz.
 
       - video-youtube:
-      yt_title:
              yt_title: Como calcular 7 + 6
              yt_id: fWGkYfqva4I
              yt_desc1: Sal soma 7 + 6 usando a reta numérica. Criado por Sal Khan.
