@@ -14,5 +14,10 @@ screens: # Each module is comprised of 1..n screens - you could think of them li
            yt_desc1: Sal soma 7 + 6 usando a reta numérica. Criado por Sal Khan.
            yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-add-sub-20/cc-early-math-add-20/e/addition_2
 
+      - video-youtube:
+           yt_title: Como subtrair 14 - 6
+           yt_id: I58E7rfhZ4g
+           yt_desc1: https://pt.khanacademy.org/math/early-math/cc-early-math-add-sub-20/cc-early-math-sub-20/e/subtraction_2
+           yt_desc2: Sal subtrai 14 - 6 pensando primeiramente sobre a subtração de 2 e 4. Criado por Sal Khan.
 
 ---
