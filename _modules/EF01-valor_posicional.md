@@ -19,10 +19,10 @@ screens: # Each module is comprised of 1..n screens - you could think of them li
            yt_desc1: Sal usa o número 37 para explicar porque usamos a "casa das unidades" e a "casa das dezenas" ao escrevermos números.  Criado por Sal Khan.
            yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-place-value-topic/cc-early-math-tens/e/groups-of-tens
 
-  - video-youtube:
+   - video-youtube:
            yt_title: Símbolos “maior que” e “menor que”
            yt_id: 2_0ZMZIOMTc
-           yt_desc1: 
+           yt_desc1: Sal apresenta o símbolo de maior que ">" e o símbolo de menor que "<". Criado por Sal Khan.
            yt_desc2: https://pt.khanacademy.org/math/early-math/cc-early-math-place-value-topic/cc-early-math-two-digit-compare/e/comparing_whole_numbers
 
 ---
